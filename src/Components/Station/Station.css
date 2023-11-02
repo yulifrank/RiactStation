@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clock {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .select-container {
+    margin-bottom: 20px;
+  }
+  
+  .category-select {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .station-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .station-item {
+    background-color: rgba(144, 184, 194, 0.634);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .station-street {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .station-details {
+    font-size: 14px;
+    color: rgb(62, 122, 175);
+  }
+  
+  .station-address,
+  .station-lines,
+  .station-number {
+    margin-bottom: 5px;
+  }
